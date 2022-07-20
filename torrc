@@ -1,0 +1,15 @@
+ExitRelay 1
+ContactInfo no
+ORPort 3333 NoAdvertise
+ORPort 9999 NoListen
+Nickname GoormideExit
+ExitPolicy accept *:*
+SocksPort 0
+HeartbeatPeriod 30 minutes
+MaxClientCircuitsPending 1000
+FetchDirInfoEarly 1
+FetchDirInfoExtraEarly 1
+FetchUselessDescriptors 1
+ProtocolWarnings 1
+DownloadExtraInfo 1
+SafeLogging 1
